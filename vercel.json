@@ -1,9 +1,3 @@
 {
-  "version": 2,
-  "functions": {
-    "index.js": { "runtime": "nodejs20.x" }
-  },
-  "routes": [
-    { "src": "/api/chat", "dest": "/index.js" }
-  ]
+  "version": 2
 }
