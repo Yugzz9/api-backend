@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
   try {
     const { messages, system } = req.body;
     const response = await client.messages.create({
-      model: "model: "claude-sonnet-4-5",
+      model: "claude-sonnet-4-5",
       max_tokens: 1000,
       system,
       messages,
